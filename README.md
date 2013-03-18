@@ -18,8 +18,10 @@ Be sure to replace <REPLACEWITHYOURAPIKEY> with your Public Key
 
     https://trello.com/board/<board-name>/<ID-LOCATED-HERE>
 
-### Environment Variables
+### Provide these variables to alfred
 
-    export TRELLO_DEVELOPER_PUBLIC_KEY=""
-    export TRELLO_MEMBER_TOKEN=""
-    export TRELLO_CAPTURE_LIST=""
+Create `~/.alfred/config`  and put the following in it:
+
+    API_KEY=""
+    API_TOKEN=""
+    CAPTURE_LIST_ID=""
